@@ -206,7 +206,7 @@ const Contact: React.FC = () => {
                 </div>
 
                 <button
-                  type="submit"
+                    onClick={() => { window.location.href = "https://calendly.com/username/30min"; }} 
                   className="w-full bg-blue-600 text-white py-4 px-6 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center shadow-lg hover:shadow-xl"
                 >
                   Start My Project <ArrowRight className="ml-2 w-5 h-5" />
